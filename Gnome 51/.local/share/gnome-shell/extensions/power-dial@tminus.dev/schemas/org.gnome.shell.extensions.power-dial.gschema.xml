@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.power-dial" path="/org/gnome/shell/extensions/power-dial/">
+    <key name="shortcut" type="as">
+      <default><![CDATA[['<Alt>F5']]]></default>
+      <summary>Shortcut to open the power menu</summary>
+      <description>The keybinding to trigger the power menu (e.g., ['&lt;Alt&gt;F5']).</description>
+    </key>
+    <key name="view-mode" type="s">
+      <default>'stack'</default>
+      <summary>Layout mode for the power dial menu</summary>
+      <description>How to display the power actions. Options: 'stack' (vertical list), 'tile' (2x2 grid), or 'pill' (pill-shaped buttons).</description>
+    </key>
+    <key name="show-top-bar-icon" type="b">
+      <default>true</default>
+      <summary>Show top bar icon</summary>
+      <description>Whether to display the Power Dial icon in the top bar</description>
+    </key>
+    <key name="dialog-mode" type="s">
+      <default>'overlay'</default>
+      <summary>Dialog mode</summary>
+      <description>How the power menu appears. Options: 'overlay' (centered modal dialog with dim) or 'dropdown' (panel dropdown menu).</description>
+    </key>
+    <key name="minimal-dialog" type="b">
+      <default>false</default>
+      <summary>Minimal dialog</summary>
+      <description>Hide the title and cancel button on the overlay power menu.</description>
+    </key>
+    <key name="tiled-display-mode" type="s">
+      <default>'label-with-icons'</default>
+      <summary>Tiled view display mode</summary>
+      <description>How to display tiles in tiled view. Options: 'label-with-icons' (text with icons), 'icons-only' (icons only), or 'label-only' (labels only).</description>
+    </key>
+    <key name="restart-confirmation" type="s">
+      <default>'confirm'</default>
+      <summary>Restart confirmation mode</summary>
+      <description>Whether to show confirmation before restart. Options: 'confirm' (show dialog) or 'immediate' (execute immediately).</description>
+    </key>
+    <key name="poweroff-confirmation" type="s">
+      <default>'confirm'</default>
+      <summary>Power off confirmation mode</summary>
+      <description>Whether to show confirmation before power off. Options: 'confirm' (show dialog) or 'immediate' (execute immediately).</description>
+    </key>
+    <key name="logout-confirmation" type="s">
+      <default>'confirm'</default>
+      <summary>Logout confirmation mode</summary>
+      <description>Whether to show confirmation before logout. Options: 'confirm' (show dialog) or 'immediate' (execute immediately).</description>
+    </key>
+    <key name="enable-hibernate" type="b">
+      <default>false</default>
+      <summary>Enable hibernate option</summary>
+      <description>Whether to show the hibernate option in the power menu. Only enable if your system supports hibernation.</description>
+    </key>
+    <key name="hibernate-confirmation" type="s">
+      <default>'confirm'</default>
+      <summary>Hibernate confirmation mode</summary>
+      <description>Whether to show a confirmation dialog before hibernate. Options: 'confirm' (show dialog) or 'immediate' (execute immediately).</description>
+    </key>
+    <key name="hibernate-available" type="b">
+      <default>false</default>
+      <summary>Hibernate availability</summary>
+      <description>Whether the system supports hibernation. Set automatically by the check button in preferences.</description>
+    </key>
+  </schema>
+</schemalist>

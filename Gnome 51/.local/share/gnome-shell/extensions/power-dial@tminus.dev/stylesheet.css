@@ -1,0 +1,240 @@
+.power-dial-dialog {
+	width: 300px;
+	padding: 12px;
+}
+
+.power-dial-dialog .modal-dialog-content-box {
+	padding: 0;
+	margin: 0;
+}
+
+.power-dial-box {
+	width: 100%;
+}
+
+.power-dial-box .button {
+	min-height: 40px;
+	padding: 0 !important;
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.06);
+	border: 1px solid transparent;
+	color: inherit;
+}
+
+.power-dial-box .button:hover {
+	background-color: rgba(255, 255, 255, 0.04);
+}
+
+.power-dial-box .button:focus {
+	box-shadow: inset 0 0 0 2px -st-accent-color;
+}
+
+.power-dial-box .button:active {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.power-dial-box .button {
+	margin-bottom: 8px;
+}
+
+.power-dial-box .button:last-child {
+	margin-bottom: 0;
+}
+
+.headline {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	width: 100%;
+}
+
+.power-dial-box .tile-icons-only {
+	min-height: 40px;
+	flex: 1 1 0;
+	padding: 16px 12px;
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.06);
+	border: 1px solid transparent;
+	color: inherit;
+	margin: 0;
+}
+
+.power-dial-box .tile-label-only {
+	min-height: 40px;
+	flex: 1 1 0;
+	padding: 16px 12px;
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.06);
+	border: 1px solid transparent;
+	color: inherit;
+	margin: 0;
+}
+
+.power-dial-box .tile-label-with-icons {
+	height: 80px;
+	width: 120px;
+	flex: 1 1 0;
+	padding: 0;
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.06);
+	border: 1px solid transparent;
+	color: inherit;
+	margin: 0;
+}
+
+.power-dial-box .tile-icons-only:hover {
+	background-color: rgba(255, 255, 255, 0.04);
+}
+
+.power-dial-box .tile-icons-only:active {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.power-dial-box .tile-icons-only:focus {
+	background-color: rgba(255, 255, 255, 0.12);
+	box-shadow: inset 0 0 0 2px -st-accent-color;
+}
+
+.power-dial-box .tile-label-only:hover {
+	background-color: rgba(255, 255, 255, 0.04);
+}
+
+.power-dial-box .tile-label-only:active {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.power-dial-box .tile-label-only:focus {
+	background-color: rgba(255, 255, 255, 0.12);
+	box-shadow: inset 0 0 0 2px -st-accent-color;
+}
+
+.power-dial-box .tile-label-with-icons:hover {
+	background-color: rgba(255, 255, 255, 0.04);
+}
+
+.power-dial-box .tile-label-with-icons:active {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.power-dial-box .tile-label-with-icons:focus {
+	background-color: rgba(255, 255, 255, 0.12);
+	box-shadow: inset 0 0 0 2px -st-accent-color;
+}
+
+.power-dial-box .tile-label {
+	color: inherit;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.power-dial-box .tile-icons-only .system-status-icon {
+	color: inherit;
+}
+
+.power-dial-box .tile-label-only-text {
+	color: inherit;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.power-option-label {
+	color: inherit;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center !important;
+}
+
+.power-option-icon-container {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 2px 12px 12px 2px;
+}
+
+.power-option-icon-container-tile {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 12px 12px 2px 2px;
+	width: 160px;
+}
+
+.power-option-icon-container-tile-full {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 12px 12px 2px 2px;
+	width: 296px;
+}
+
+.power-option-icon {
+	color: inherit;
+}
+
+.logout-tile-full {
+	width: 100%;
+}
+
+.pill-button-full .pill-label {
+	margin-left: 0;
+	margin-right: 46px;
+}
+
+/* Pill View */
+.power-dial-box .pill-button {
+	min-height: 48px;
+	width: 142px;
+	padding: 0;
+	border-radius: 999px;
+	background-color: rgba(255, 255, 255, 0.06);
+	border: 1px solid transparent;
+	color: inherit;
+}
+
+.power-dial-box .pill-button:hover {
+	background-color: rgba(255, 255, 255, 0.04);
+}
+
+.power-dial-box .pill-button:active {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.power-dial-box .pill-button:focus {
+	box-shadow: inset 0 0 0 2px -st-accent-color;
+}
+
+.pill-icon-container {
+	width: 42px;
+	height: 42px;
+	margin: 2px;
+	border-radius: 999px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pill-icon {
+	color: inherit;
+}
+
+.pill-label {
+	color: inherit;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 10px;
+	margin-right: 16px;
+}
+
+.power-dial-dialog.pill-mode {
+	width: 300px;
+	border-radius: 34px;
+}
+
+.power-dial-dialog.pill-mode .modal-dialog-button-box .modal-dialog-button {
+	border-radius: 999px;
+}
+
+.power-dial-dialog.pill-mode .button {
+	border-radius: 999px;
+}
+
+.pill-cancel {
+	border-radius: 999px !important;
+}
