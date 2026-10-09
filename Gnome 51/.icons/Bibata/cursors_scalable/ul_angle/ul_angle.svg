@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="-56 -56 352 352" fill="none">
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round" transform="translate(40,40)">
+    <path id="angle-stroke" d="M 0,168 V 0 h 168" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="48"/>
+    <path id="angle-fill" d="M 0,168 V 0 h 168 M 0,16 A 16,16 0 0 1 16,0" stroke="#000000" stroke-width="16"/>
+  </g>
+</svg>

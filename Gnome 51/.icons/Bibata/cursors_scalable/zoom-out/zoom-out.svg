@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="-69.4 -70.7 352 352" fill="none">
+  <defs>
+    <path id="looking-glass" d="M 68.4,0 a 68.4,68.4 0 0,1 -68.4,68.4 a 68.4,68.4 0 0,1 -68.4,-68.4 a 68.4,68.4 0 0,1 68.4,-68.4 a 68.4,68.4 0 0,1 68.4,68.4 z h 62" stroke-linecap="round" transform="rotate(45)"/>
+    <mask id="glass-mask" color="#FFFFFF">
+      <use xlink:href="#looking-glass" fill="currentColor" stroke="currentColor" stroke-width="44.8"/>
+    </mask>
+  </defs>
+  <g id="position-on-canvas" transform="translate(117,115.7)">
+    <rect id="glass-stroke" x="-128" y="-128" width="256" height="256" fill="#FFFFFF" fill-opacity="0.8" mask="url(#glass-mask)"/>
+    <use id="glass-fill" xlink:href="#looking-glass" fill="none" stroke="#000000" stroke-width="12.8"/>
+    <path id="minus" d="M -33.6,0 h 67.2" fill="#000000" stroke="#000000" stroke-width="20.8" stroke-linecap="round"/>
+  </g>
+</svg>

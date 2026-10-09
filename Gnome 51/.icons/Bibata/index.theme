@@ -1,0 +1,8 @@
+[Icon Theme]
+Name=Bibata-Modern-Classic-GE-NoShadow
+Name[en]=Bibata Modern Classic glass-edge (w/o shadow)
+Comment=Black with translucent and rounded edge without pointer shadow Bibata cursors (v2.0.7-stanio-16)
+Inherits=hicolor
+
+# Cursors-only theme
+Directories=

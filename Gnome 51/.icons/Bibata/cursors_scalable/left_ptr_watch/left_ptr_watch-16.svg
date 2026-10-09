@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="-29 -57.441072 352 352" fill="none">
+  <defs>
+    <path id="pointer-shape" d="M 68,30.646 C 70.79,30.27,73.636,31.08,76.176,33.697 L 141.496,101 L 147.598,107.289 L 59,147.271 V 134.895 V 40.662 C 59,35.8,61.628,32.86,65.242,31.395 C 66.146,31.028,67.07,30.772,68,30.646 z"/>
+    <circle id="badge-shape" cx="118" cy="162" r="62"/>
+    <mask id="outline-mask" color="#FFFFFF">
+      <use xlink:href="#pointer-shape" fill="currentColor" stroke="currentColor" stroke-width="32"/>
+      <use xlink:href="#badge-shape" fill="currentColor" stroke="currentColor" stroke-width="32"/>
+    </mask>
+    <mask id="pointer-mask" color="#FFFFFF">
+      <use xlink:href="#pointer-shape" fill="currentColor" stroke="none" stroke-width="32"/>
+    </mask>
+  </defs>
+  <rect width="256" height="256" fill="#FFFFFF" fill-opacity="0.8" mask="url(#outline-mask)"/>
+  <g mask="url(#pointer-mask)">
+    <rect width="256" height="256" fill="#000000"/>
+    <use xlink:href="#badge-shape" fill="none" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="32"/>
+  </g>
+  <g>
+    <use xlink:href="#badge-shape" fill="#000000"/>
+  </g>
+  <g transform="translate(118 162) scale(0.97222)">
+    <path d="M 0,0 L 0,-50 A 50,50 0 0 1 50,0 Z" fill="#F05024" fill-opacity="0.8" transform="rotate(502.33)"/>
+    <path d="M 0,0 L 50,0 A 50,50 0 0 1 0,50 Z" fill="#FCB813" fill-opacity="0.8" transform="rotate(376.74)"/>
+    <path d="M 0,0 L 0,50 A 50,50 0 0 1 -50,0 Z" fill="#7EBA41" fill-opacity="0.8" transform="rotate(251.16)"/>
+    <path d="M 0,0 L -50,0 A 50,50 0 0 1 0,-50 Z" fill="#32A0DA" fill-opacity="0.8" transform="rotate(125.58)"/>
+  </g>
+</svg>

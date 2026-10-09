@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="-52 -49.5975 352 352" fill="none">
+  <defs>
+    <path id="N65563" d="M 212,59.3294 C 212,34.1891 200.429,32.7662 182.2908,49.3682 L 80.6214,139.493 C 72.9501,146.3565 71.5523,164.6331 80.6214,168.4278 C 89.6905,172.2226 119.4369,165.9497 142.6726,176.4324 C 165.9093,186.9152 180.3419,213.4889 189.7411,217.7293 C 199.1393,221.9698 211.8505,205.9764 212,195.7192 z"/>
+  </defs>
+  <g id="pointer-shape">
+    <use xlink:href="#N65563" fill="none" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="32"/>
+    <use xlink:href="#N65563" fill="#000000"/>
+  </g>
+</svg>

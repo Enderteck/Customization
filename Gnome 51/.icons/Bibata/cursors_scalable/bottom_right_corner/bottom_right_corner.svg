@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="-56 -56 352 352" fill="none">
+  <defs>
+    <path id="butt" d="M 16,0 A 16,16 0 0 0 0,16 V 139.1621 C 0,151.954 11.193,162.197 23.692,159.44 91.295,144.533 144.533,91.295 159.44,23.692 162.197,11.193 151.954,0 139.162,0 z" transform="matrix(-1,0,0,-1,176,176)"/>
+    <mask id="butt-outline">
+      <use xlink:href="#butt" fill="#fff" stroke="#fff" stroke-width="16"/>
+    </mask>
+    <mask id="butt-fill">
+      <use xlink:href="#butt" fill="#fff" stroke="#000" stroke-width="16"/>
+    </mask>
+  </defs>
+  <g>
+    <rect width="256" height="256" fill="#FFFFFF" fill-opacity="0.8" mask="url(#butt-outline)"/>
+    <rect width="256" height="256" fill="#000000" mask="url(#butt-fill)"/>
+  </g>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round" transform="matrix(-1,0,0,-1,216,216)">
+    <path id="corner-stroke" d="M 0,72 V 0 h 72" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="48"/>
+    <path id="corner-fill" d="M 0,72 V 0 h 72 M 0,16 A 16,16 0 0 1 16,0" stroke="#000000" stroke-width="16"/>
+  </g>
+</svg>

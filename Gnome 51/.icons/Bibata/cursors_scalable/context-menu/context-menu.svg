@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="-33.4932 -49.5975 352 352" fill="none">
+  <defs>
+    <path id="pointer-shape" d="M 54.5068,59.3293 C 54.5068,34.1891 66.0783,32.7661 84.2164,49.3681 L 185.886,139.493 C 193.5573,146.3565 194.9547,164.6331 185.886,168.4278 C 176.8164,172.2226 147.0701,165.9497 123.8344,176.4324 C 100.5977,186.9152 86.1654,213.4889 76.7665,217.7293 C 67.3675,221.9698 54.6562,205.9764 54.5068,195.7192 z"/>
+    <rect id="badge-shape" x="116" y="24" width="96" height="96" rx="40"/>
+    <mask id="outline-mask" color="#FFFFFF">
+      <use xlink:href="#pointer-shape" fill="currentColor" stroke="currentColor" stroke-width="32"/>
+      <use xlink:href="#badge-shape" fill="currentColor" stroke="currentColor" stroke-width="32"/>
+    </mask>
+    <mask id="pointer-mask" color="#FFFFFF">
+      <use xlink:href="#pointer-shape" fill="currentColor" stroke="none" stroke-width="32"/>
+    </mask>
+  </defs>
+  <rect width="256" height="256" fill="#FFFFFF" fill-opacity="0.8" mask="url(#outline-mask)"/>
+  <g mask="url(#pointer-mask)">
+    <rect width="256" height="256" fill="#000000"/>
+    <use xlink:href="#badge-shape" fill="none" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="32"/>
+  </g>
+  <g>
+    <g>
+      <use xlink:href="#badge-shape" fill="#5F3BE4"/>
+    </g>
+    <path d="M163.411 37.2549C169.527 37.2549 174.503 42.0705 174.503 47.9896C174.503 53.9088 169.527 58.7244 163.411 58.7244C157.294 58.7244 152.318 53.9088 152.318 47.9896C152.318 42.0705 157.294 37.2549 163.411 37.2549ZM177.529 105.567H149.293V99.7117H155.343V70.435H149.293V64.5797H171.478V99.7117H177.529V105.567Z" fill="#FFFFFF"/>
+  </g>
+</svg>

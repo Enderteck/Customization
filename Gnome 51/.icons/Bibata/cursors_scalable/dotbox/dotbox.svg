@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="-48 -48 352 352" fill="none">
+  <g transform="translate(128,128)">
+    <path id="dotbox-shape" d="M 80,0 h -24 M 0,80 v -24 M -80,0 h 24 M 0,-80 v 24 M -80,-80 H 80 V 80 H -80 z" fill="none" stroke-linecap="square"/>
+    <use xlink:href="#dotbox-shape" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="48"/>
+    <use xlink:href="#dotbox-shape" stroke="#000000" stroke-width="16"/>
+  </g>
+</svg>

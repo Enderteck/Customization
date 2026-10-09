@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="-56 -56 352 352" fill="none">
+  <g fill="none" stroke-linecap="round" transform="translate(128,128)">
+    <path id="cross-outline" d="M -98,0 H 98 M 0,-98 V 98" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="48"/>
+    <path id="cross-fill" d="M -98,0 H 98 M 0,-98 V 98" stroke="#000000" stroke-width="16"/>
+  </g>
+</svg>

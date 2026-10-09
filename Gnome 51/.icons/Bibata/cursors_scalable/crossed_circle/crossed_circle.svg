@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="-48 -48 352 352" fill="none">
+  <defs>
+    <circle id="N65552" cx="128" cy="128" r="89.32"/>
+  </defs>
+  <g>
+    <use xlink:href="#N65552" fill="none" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="32"/>
+    <use xlink:href="#N65552" fill="#FE0000"/>
+  </g>
+  <path d="M -53.1385,0 h 106.277 M 0,-53.1385 v 106.277" stroke="#FFFFFF" stroke-width="19.324" transform="translate(128,128) rotate(45)"/>
+</svg>
