@@ -94,7 +94,7 @@ echo "🔄 Mise à jour Gale..."
     if confirm "Voulez-vous mettre à jour le thème Gnome (Orchis) ?"; then
         # --- Configuration ---
 	# Modifiez ces variables pour changer le thème ou les options d'installation.
-	GNOME_THEME_URL="https://github.com/tristanmsct/Orchis-theme.git"
+	GNOME_THEME_URL="https://github.com/vinceliuice/orchis-theme.git"
 	GNOME_THEME_INSTALL_OPTIONS="-t orange -c dark -s standard -i fedora -l -f --tweaks solid black submenu"
 	GNOME_THEME_SOURCE_DIR="$HOME/Orchis-theme-source"
 	GNOME_THEME_COLOR_FILE_PATH="gtkrc.sh"
@@ -134,7 +134,7 @@ echo "🔄 Mise à jour Gale..."
 	
 	# 4. PATCH POUR GNOME 50
 	echo "Application du patch de compatibilité"
-	cd /home/enderteck/.executables
+	cd $HOME/Git/Gnome-Theming/Gnome 51/.executables
 	python ./Patchorchis.py
 	echo "✅ Thème patché avec succès."
 	
