@@ -135,7 +135,7 @@ echo "🔄 Mise à jour Gale..."
 	
 	# 4. PATCH POUR GNOME 50
 	echo "Application du patch de compatibilité"
-	cd "GNOME_THEME_PATCHING_SCRIPT_PATH"
+	cd "$GNOME_THEME_PATCHING_SCRIPT_PATH"
 	python ./Patchorchis.py
 	echo "✅ Thème patché avec succès."
 	
