@@ -1,8 +1,0 @@
-font-size = 12
-background = 000000
-window-save-state = always
-maximize = true
-keybind = ctrl+c=copy_to_clipboard
-keybind = ctrl+x=copy_to_clipboard
-keybind = ctrl+v=paste_from_clipboard
-
