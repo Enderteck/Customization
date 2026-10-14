@@ -98,7 +98,7 @@ echo "🔄 Mise à jour Gale..."
 	GNOME_THEME_INSTALL_OPTIONS="-t orange -c dark -s standard -i fedora -l -f --tweaks solid black submenu"
 	GNOME_THEME_SOURCE_DIR="$HOME/Orchis-theme-source"
 	GNOME_THEME_COLOR_FILE_PATH="gtkrc.sh"
-	GNOME_THEME_PATCHING_SCRIPT_PATH="$HOME/Git/Gnome-Theming/Gnome\ 51/.executables"
+	GNOME_THEME_PATCHING_SCRIPT_PATH="$HOME/Git/Gnome-Theming/Scripts"
 	
 	# --- Début du script ---
 	echo "🎨 Démarrage de l'installation du thème GTK Orchis."
