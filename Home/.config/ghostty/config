@@ -9,7 +9,7 @@ selection-foreground = #FFA656
 cursor-style = bar
 cursor-color = #FF7800
 cursor-text = #1a1200
-palette = 0=#2a1e00
+palette = 0=#9B5200
 palette = 1=#ff6a00
 palette = 2=#ffb000
 palette = 3=#ffc742
@@ -17,7 +17,7 @@ palette = 4=#ff8c00
 palette = 5=#ffa033
 palette = 6=#ffd27f
 palette = 7=#ffd9a0
-palette = 8=#6a4e00
+palette = 8=#8A5900
 palette = 9=#ff8a1e
 palette = 10=#ffc742
 palette = 11=#ffe08a
@@ -36,11 +36,9 @@ window-padding-y = 0
 language = fr
 maximize = true
 window-save-state = always
-shell-integration = bash
 
 # Keybinds
 keybind = performable:ctrl+c=copy_to_clipboard
 keybind = performable:ctrl+v=paste_from_clipboard
 keybind = ctrl+r=reload_config
 keybind = ctrl+x=copy_to_clipboard
-keybind = ctrl+t=toggle_background_opacity
