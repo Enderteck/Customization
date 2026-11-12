@@ -1,0 +1,26 @@
+Résultat souhaité:
+
+┌[Ghostty]─[~/Git/Customization]──────────────────────────[enderteck@FrameworkLaptop12]┐
+└[20:40:30] [git: on main 🖉]──>                                 >──[jeu. 12 nov.]─[⌁|=87%]┘
+
+Sortie Actuelle:
+
+┌(Ghostty)(~/Git/Customization)────────────────────(enderteck@FrameworkLaptop12:pts/0)┐
+└(20:40:30 on main ✹)──>                                 >──(87%)─(jeu.,nov.12)┘
+
+Choses à changer:
+
+- Inclure le Ghostty comme titre (ou trouver le nom d'usage du terminal utilisé, si c'est possible)
+- Faire en sorte que le bon nombre de ─ s'affichent selon la largeur du terminal, car ayant ajouté des choses à afichier sans modifier l'équation de calcul, mon thème en affiche trop
+- Remplacer toutes les parenthèses par des crochets: ( -> [ & ) -> ]
+- Colorer correctement tout les types de donées:
+	Crochets et ─, ┘, ┐, ┌, └ en bleu
+	Le texte entre ces crochets en Jaune
+	les > en rouge
+- Inverser la position du pourcentage de batterie & de la date
+- Reformatter la date avec un format plus comfortable [<3lettres jour>. <date> <3lettresmois>.]
+- Ajouter une icône de charge avant le poucentage de batterie (quelque chose comme "⌁[=" ou mieux si possible) quand elle charge, je veut toujours voir le pourcentage de batterie (https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/battery), mais seulement si l'appareil a une batterie à charger
+- Retirer ":pts/0" après usr@PC
+- Reformater Git avec de meilleurs icônes que celles du thème actuel, je ne trouve pas beau ✹, ✭ & ✖, ils ne sont pas jolis avec ma police Monospace "Monocraft", peut être 🖉 pour quand ça a été modifié ?
+
+
