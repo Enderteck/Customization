@@ -1,2 +1,2 @@
 #!/bin/bash
-cc $1 -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-long-long -o test
+cc "$@" -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-long-long -O0 -ggdb -fno-omit-frame-pointer -o test
