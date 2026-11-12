@@ -61,6 +61,12 @@ THEME_GIT_ICON_RENAMED='➜'      # fichier renommé
 THEME_GIT_ICON_UNMERGED='═'     # conflit de fusion
 THEME_GIT_ICON_UNTRACKED='?'    # fichier non suivi
 
+# Colonnes laissées vides à droite du cadre. zsh en laisse 1 par défaut ;
+# 0 = le cadre touche le bord droit du terminal. Le calcul des ─ (theme_precmd)
+# lit cette valeur, les deux lignes restent donc alignées quelle qu'elle soit.
+# Si, dans un terminal, le curseur saute une ligne ou si le prompt de droite
+# se décale, remettre 1.
+ZLE_RPROMPT_INDENT=0
 
 # ------------------------------------------------------------------------------
 # 2. COULEURS
@@ -316,7 +322,7 @@ ZSH_THEME_RUBY_PROMPT_SUFFIX=""
 #   s'applique donc au prompt suivant.)
 
 function theme_precmd {
-  local TERMWIDTH=$(( COLUMNS - ${ZLE_RPROMPT_INDENT:-1} ))
+  local TERMWIDTH=$(( COLUMNS - ${ZLE_RPROMPT_INDENT:-0} ))
   local fn name
   local -a envs
 
